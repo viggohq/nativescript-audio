@@ -392,7 +392,8 @@ export class TNSPlayer implements TNSPlayerI {
             this.volume = parseFloat('0.' + this._lastPlayerVolume.toString());
           }
 
-          this.resume();
+          // https://github.com/nstudio/nativescript-audio/issues/111
+          // this.resume();
           break;
         case android.media.AudioManager.AUDIOFOCUS_GAIN_TRANSIENT:
           TNS_Player_Log('AUDIOFOCUS_GAIN_TRANSIENT');
