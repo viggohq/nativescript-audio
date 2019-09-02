@@ -1,4 +1,4 @@
-<a align="center" href="https://www.npmjs.com/package/nativescript-audio">
+<a align="center" href="https://www.myget.org/feed/viggo/package/npm/@viggo/nativescript-audio">
     <h3 align="center">NativeScript Audio</h3>
 </a>
 <h4 align="center">NativeScript plugin to play and record audio files for Android and iOS.</h4>
@@ -33,7 +33,7 @@
 
 ## Installation
 
-`tns plugin add nativescript-audio`
+`tns plugin add @viggo/nativescript-audio`
 
 ---
 
@@ -59,7 +59,7 @@ Note: You will need to grant permissions on iOS to allow the device to access th
 ### TypeScript Example
 
 ```typescript
-import { TNSPlayer } from 'nativescript-audio';
+import { TNSPlayer } from '@viggo/nativescript-audio';
 
 export class YourClass {
   private _player: TNSPlayer;
@@ -109,7 +109,7 @@ export class YourClass {
 ### Javascript Example:
 
 ```javascript
-const audio = require('nativescript-audio');
+const audio = require('@viggo/nativescript-audio');
 
 const player = new audio.TNSPlayer();
 const playerOptions = {
